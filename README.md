@@ -3,7 +3,7 @@
 ------------------------------------------
 **Why fan game?**
 ------------------------------------------
-I initially was impressed by a horror-game concept art of a derivative work created by a blue archive user. That art became the first and biggest motivation for me to create a game. This game has quite different game design than the concept art that I saw, but blue archive is still being one of the motivation for me to create a game. Hence, I decided to start working on making a fan game.
+I initially was impressed by a horror-game concept art of a derivative work created by a blue archive user. That art became the first and biggest motivation for me to start creating a game. This game has quite different game design than the concept art that I saw, but blue archive is still being one of the motivation for me to create a game. Hence, I decided to start working on making a fan game.
 
 ------------------------------------------
 **game design?**
