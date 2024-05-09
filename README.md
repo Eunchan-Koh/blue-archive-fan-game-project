@@ -8,7 +8,7 @@ I initially was impressed by a horror-game concept art of a derivative work crea
 ------------------------------------------
 **game design?**
 ------------------------------------------
-#about original design
+#about original design<\br >
 Blue Archive game itself has game design of character gacha. There are stages, for each stage, the players can form a party of 4 strikers and 2 supporter characters - where strikers show up on screen, battle automatically, and supporter character does not show up nor battle, but supports striker characters with their stat + skills. The types are not conversible, strikers cannot be supporter and supporters cannot be striker.
 Battles are automatic, only thing that player can interact during battle is when to use each character's ex skill on where, while each ex skill has their own cost. cost resource recovers by 1 every few seconds, up to maximum number 10.
 
