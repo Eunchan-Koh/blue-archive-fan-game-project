@@ -51,7 +51,7 @@ and if Striker B equips Supporter A, then B will has following kind of calculati
 void StatCalculation(){//will be called on void Start() since these are the basic stats
                        //of the striker character during the battle scene.
   MovingSpeed = appliedMovingSpeed*Time.deltaTime;
-  //MaxBullet will be defined manually for each character
+  //MaxBullet will be defined manually for each character from Unity instead of inside the Scripts
   //same for Damage
   //Also HP value
   if(SupporterA){
