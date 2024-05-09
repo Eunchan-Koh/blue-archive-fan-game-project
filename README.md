@@ -8,28 +8,28 @@ I initially was impressed by a horror-game concept art of a derivative work crea
 ------------------------------------------
 **game design?**
 ------------------------------------------
-#about original design<\br >
-Blue Archive game itself has game design of character gacha. There are stages, for each stage, the players can form a party of 4 strikers and 2 supporter characters - where strikers show up on screen, battle automatically, and supporter character does not show up nor battle, but supports striker characters with their stat + skills. The types are not conversible, strikers cannot be supporter and supporters cannot be striker.
-Battles are automatic, only thing that player can interact during battle is when to use each character's ex skill on where, while each ex skill has their own cost. cost resource recovers by 1 every few seconds, up to maximum number 10.
+#about original design<br />
+Blue Archive game itself has game design of character gacha. There are stages, for each stage, the players can form a party of 4 strikers and 2 supporter characters - where strikers show up on screen, battle automatically, and supporter character does not show up nor battle, but supports striker characters with their stat + skills. The types are not conversible, strikers cannot be supporter and supporters cannot be striker.<br />
+Battles are automatic, only thing that player can interact during battle is when to use each character's ex skill on where, while each ex skill has their own cost. cost resource recovers by 1 every few seconds, up to maximum number 10.<br />
 
-#my game design plan
-Just as the original game, I will be creating stages, forming different goals for each stage unlike original game.
-The goal can be breaking an specific game object, taking a key and returning to a specific point, securing point(or wave defense), and reaching to target location, etc.
-As original game, player will be forming a party, but the format will be a little different.
-In my game, there will be max. 4 striker characters and 4 supporters, but supporters will be treated more like an equipment in other games.
-each striker can take one supporter character, and that striker with supporter will be get increased stat + supporter ex skill depends on the supporter they took.
-Combination of each striker & supporter can cause synergy, expecting it to be one of the parts where player will feel fun. To maximize the joy, there will be some specific stages where some special combinations are required to be cleared. (it can be little similar style to total assault content in original game.)
+#my game design plan<br />
+Just as the original game, I will be creating stages, forming different goals for each stage unlike original game.<br />
+The goal can be breaking an specific game object, taking a key and returning to a specific point, securing point(or wave defense), and reaching to target location, etc.<br />
+As original game, player will be forming a party, but the format will be a little different.<br />
+In my game, there will be max. 4 striker characters and 4 supporters, but supporters will be treated more like an equipment in other games.<br />
+each striker can take one supporter character, and that striker with supporter will be get increased stat + supporter ex skill depends on the supporter they took.<br />
+Combination of each striker & supporter can cause synergy, expecting it to be one of the parts where player will feel fun. To maximize the joy, there will be some specific stages where some special combinations are required to be cleared. (it can be little similar style to total assault content in original game.)<br />
 
-The stage will not be proceeded automatically, but instead, player will be playing in hyper TPS style.
-There will be no cost resource, but instead each character will be having own cooldown for each skill they have.
+The stage will not be proceeded automatically, but instead, player will be playing in hyper TPS style.<br />
+There will be no cost resource, but instead each character will be having own cooldown for each skill they have.<br />
 The strikers in a party will not show up at the same time like original game, but instead, there will be one character and player can change to other party member whenever they want(except under specific condition). You can think of Genshin's player party system.
 
 ------------------------------------------
 **programing architecture**
 ------------------------------------------
-There is a parent class named 'Character' and 'Supporter'.
-Striker characters' classes are the children classes of 'Character' class, and supporter characters' classes are the children classes of 'Supporter' class.
-Each Character class has a public Supporter variable, and when this section is filled, the character will be affected by the Supporter variable.
+There is a parent class named 'Character' and 'Supporter'.<br />
+Striker characters' classes are the children classes of 'Character' class, and supporter characters' classes are the children classes of 'Supporter' class.<br />
+Each Character class has a public Supporter variable, and when this section is filled, the character will be affected by the Supporter variable.<br />
 ex) if Supporter A has:
 ```
 [SerializeField]
