@@ -1,6 +1,6 @@
 # blue-archive-fan-game-project
 
-link to played video: https://www.youtube.com/watch?v=icwdtDzj_Og
+link to played video: https://www.youtube.com/watch?v=-HRKJN4sq7U
 
 ------------------------------------------
 **Why fan game?**
